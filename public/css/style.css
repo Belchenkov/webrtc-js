@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700;900&display=swap');
+
 button {
   background: transparent;
   box-shadow: 0px 0px 0px transparent;
@@ -29,7 +31,7 @@ body {
   margin: 0;
   padding: 0;
   color: white;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 .main_container {
@@ -43,7 +45,7 @@ body {
 .dashboard_container {
   width: 25%;
   height: 100%;
-  background: linear-gradient(168.68deg, #0052c9 1.12%, #0a91db 100%);
+  background: linear-gradient(168.68deg, #9b7d27 1.12%, #99ae2a 100%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -71,11 +73,12 @@ body {
 
 .description_container {
   margin: 0 40px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, .4);
 }
 
 .description_container_paragraph {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1.2rem;
   color: white;
 }
 
